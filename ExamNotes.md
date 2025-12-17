@@ -18,7 +18,6 @@
 - Enveloping Signature(エンベロービング署名)  
   - 署名要素が署名対象要素の親要素である場合の署名形式。署名の中に対象文書が格納される。  
 
-/* プロトコルのポート番号も記載してほしい */
 - HTTP(HyperText Transfer Protocol) - ポート番号: 80  
   - WebサーバとWebブラウザ間でHTML文書や画像データなどの情報をやり取りするためのプロトコル。  
 - HTTPS(HyperText Transfer Protocol Secure) - ポート番号: 443  
