@@ -18,3 +18,48 @@
 - Enveloping Signature(エンベロービング署名)  
   - 署名要素が署名対象要素の親要素である場合の署名形式。署名の中に対象文書が格納される。  
 
+/* プロトコルのポート番号も記載してほしい */
+- HTTP(HyperText Transfer Protocol) - ポート番号: 80  
+  - WebサーバとWebブラウザ間でHTML文書や画像データなどの情報をやり取りするためのプロトコル。  
+- HTTPS(HyperText Transfer Protocol Secure) - ポート番号: 443  
+  - HTTPにSSL/TLSによる暗号化と認証機能を追加したプロトコル。  
+- SMTP(Simple Mail Transfer Protocol) - ポート番号: 25  
+  - 電子メールを送信するためのプロトコル。  
+- MIME(Multipurpose Internet Mail Extensions) - ポート番号: 25  
+  - ASCII文字しか使用できないSMTPを利用したメールで、日本語の2バイトコードや画像データを送信するための仕組み。  
+- POP(Post Office Protocol) - ポート番号: 110
+  - ユーザーがメールサーバから自身のメールを取り出す処理において使用するメール受信用プロトコル。  
+- TELNET(Telecommunication Network) - ポート番号: 23  
+  - ネットワークを介して遠隔地にあるコンピュータに接続し、そのコンピュータをあたかも自分のコンピュータであるかのように操作できるようにするためのプロトコル。  
+- FTP(File Transfer Protocol) - ポート番号: 21  
+  - ネットワークを介してファイルの送受信を行うためのプロトコル。  
+- SNMP(Simple Network Management Protocol) - ポート番号: 161  
+  - ネットワークに接続された機器の管理情報を収集・監視するためのプロトコル。  
+- DHCP(Dynamic Host Configuration Protocol) - ポート番号: 67/68  
+  - ネットワークに接続されたコンピュータに対して、IPアドレスやサブネットマスク、デフォルトゲートウェイなどの情報を自動的に割り当てるためのプロトコル。  
+- ARP(Address Resolution Protocol)  
+  - IPアドレスから対応するMACアドレスを取得するためのプロトコル。  
+- RARP(Reverse Address Resolution Protocol)  
+  - MACアドレスから対応するIPアドレスを取得するためのプロトコル。  
+- ICMP(Internet Control Message Protocol)
+  - ネットワーク機器間でエラーメッセージや制御メッセージを交換するためのプロトコル。  
+- S/MIME(Secure/Multipurpose Internet Mail Extensions) - ポート番号: 25  
+  - 電子メールの内容を暗号化し、送信者の認証とメッセージの完全性を確保するためのプロトコル。  
+- SSL(Secure Sockets Layer) - ポート番号: 443  
+  - インターネット上での通信を暗号化し、データの盗聴や改ざんを防止するためのプロトコル。
+- TLS(Transport Layer Security) - ポート番号: 443  
+  - SSLの後継プロトコルであり、インターネット上での通信を暗号化し、データの盗聴や改ざんを防止するためのプロトコル。  
+- SSH(Secure Shell) - ポート番号: 22  
+  - ネットワークを介して遠隔地にあるコンピュータに安全に接続し、そのコンピュータを操作できるようにするためのプロトコル。  
+- IPSec(Internet Protocol Security) - ポート番号: 500  
+  - IP通信におけるデータの機密性、認証、完全性を確保するためのプロトコル群。  
+- LDAP(Lightweight Directory Access Protocol) - ポート番号: 389  
+  - ディレクトリサービスにアクセスするためのプロトコル。  
+- RDP(Remote Desktop Protocol) - ポート番号: 3389  
+  - リモートデスクトップ接続を実現するためのプロトコル。  
+- VoIP(Voice over Internet Protocol) - ポート番号: 5060  
+  - インターネットを利用して音声通話を行うためのプロトコル。  
+- NTP(Network Time Protocol) - ポート番号: 123  
+  - ネットワーク上のコンピュータの時刻を同期させるためのプロトコル。  
+- BGP(Border Gateway Protocol) - ポート番号: 179  
+  - インターネットの自律システム間でルーティング情報を交換するためのプロトコル。  
